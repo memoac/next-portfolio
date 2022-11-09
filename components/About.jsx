@@ -1,9 +1,11 @@
 const About = () => {
     return (
-        <div className="w-full md:h-screen p-2 flex items-center py-16">
-            <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-4 sm:px-4 xl:px-0">
-                <div className="col-span-2">
-                    <p className="uppercase text-xl tracking-widest text-[#5651e5]">About</p>
+        <div id='about' className='w-full md:h-screen p-2 flex items-center py-16'>
+      <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
+        <div className='col-span-2'>
+          <p className='uppercase text-xl tracking-widest text-[#5651e5]'>
+            About
+          </p>
                     <h2 className="py-4">Who I Am</h2>
                     <p className="py-2 text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio repellat animi aperiam eaque, fugit tempora accusantium, nobis commodi eligendi aliquid molestiae quasi labore harum corporis dignissimos consequuntur a porro exercitationem!
                         Quaerat quae adipisci, voluptatibus nisi, dolorem, quos cupiditate veniam dolore officia repudiandae at. Eaque sapiente omnis magni repellat accusantium, eius amet qui, iure obcaecati magnam laborum voluptas id nisi optio.</p>
